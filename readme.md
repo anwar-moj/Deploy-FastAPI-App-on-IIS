@@ -39,3 +39,5 @@
    from a2wsgi import ASGIMiddleware
    wsgi_app = ASGIMiddleware(app)
    ```
+
+"Note: Do not forget to assign the iis_iusrs and iusr permission to the site folder and the python folder."
